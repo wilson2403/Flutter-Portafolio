@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 import '../../../view model/responsive.dart';
@@ -11,13 +12,16 @@ class AnimatedDescriptionText extends StatelessWidget {
   Widget build(BuildContext context) {
     return TweenAnimationBuilder(
       tween: Tween(begin: start, end: end),
-      duration: const Duration(milliseconds: 200),
+      duration: const Duration(milliseconds: 1000),
       builder: (context, value, child) {
-        return Text(
-          'I\'m capable of creating excellent mobile apps, handling${Responsive.isLargeMobile(context) ? '\n' : ''}every step from ${!Responsive.isLargeMobile(context) ? '\n' : ''}concept to deployment.',
-          maxLines: 2,
-          overflow: TextOverflow.ellipsis,
-          style: TextStyle(color: Colors.grey, wordSpacing: 2, fontSize: value),
+        return SafeArea(
+          child: Text(
+            StringTranslateExtension('MyPersonalDescription').tr(),
+            textAlign: TextAlign.start,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+            style: TextStyle(color: Colors.grey, wordSpacing: 2, fontSize: value),
+          ),
         );
       },
     );

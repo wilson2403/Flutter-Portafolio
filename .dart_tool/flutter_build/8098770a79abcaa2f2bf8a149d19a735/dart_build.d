@@ -1,0 +1,1 @@
+ /Users/wilsonalfaro/Desarrollo/Dev\ AI\ Solution/Flutter-Portafolio/.dart_tool/flutter_build/8098770a79abcaa2f2bf8a149d19a735/dart_build_result.json: 

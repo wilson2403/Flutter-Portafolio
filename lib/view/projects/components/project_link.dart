@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -13,7 +14,7 @@ class ProjectLinks extends StatelessWidget {
       children: [
         Row(
           children: [
-            const Text('Check on Github',style: TextStyle(color: Colors.white),overflow: TextOverflow.ellipsis),
+            Text(StringTranslateExtension('CheckGithub').tr(),style: TextStyle(color: Colors.white),overflow: TextOverflow.ellipsis),
             IconButton(onPressed: () {launchUrl(Uri.parse(projectList[index].link));}, icon: SvgPicture.asset('assets/icons/github.svg')),
           ],
         ),
@@ -21,7 +22,7 @@ class ProjectLinks extends StatelessWidget {
         TextButton(
             onPressed: () {
               launchUrl(Uri.parse(projectList[index].link));
-            }, child: const Text('Read More>>',overflow: TextOverflow.ellipsis,style: TextStyle(color: Colors.amber,fontWeight: FontWeight.bold,fontSize: 10),))
+            }, child: Text(StringTranslateExtension('ReadMore').tr(),overflow: TextOverflow.ellipsis,style: TextStyle(color: Colors.amber,fontWeight: FontWeight.bold,fontSize: 10),))
       ],
     );
   }

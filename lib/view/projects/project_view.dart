@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/res/constants.dart';
 import 'package:flutter_portfolio/view%20model/getx_controllers/projects_controller.dart';
@@ -17,7 +18,7 @@ class ProjectsView extends StatelessWidget {
           if(Responsive.isLargeMobile(context))const SizedBox(
             height: defaultPadding,
           ),
-          const TitleText(prefix: 'Latest', title: 'Projects'),
+          TitleText(prefix: StringTranslateExtension('Latest').tr(), title: StringTranslateExtension('Projects').tr()),
           const SizedBox(
             height: defaultPadding,
           ),

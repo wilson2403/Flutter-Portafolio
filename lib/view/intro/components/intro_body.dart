@@ -1,5 +1,7 @@
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
+import 'package:flutter_portfolio/view/intro/components/connect_button.dart';
+import 'package:flutter_portfolio/view/main/components/navigation_button_list.dart';
 import '../../../res/constants.dart';
 import '../../../view model/responsive.dart';
 import 'animated_texts_componenets.dart';
@@ -54,19 +56,21 @@ class IntroBody extends StatelessWidget {
               const Responsive(
                 desktop: AnimatedDescriptionText(start: 14, end: 15),
                 largeMobile: AnimatedDescriptionText(start: 14, end: 12),
-                mobile: AnimatedDescriptionText(start: 14, end: 12),
+                mobile: AnimatedDescriptionText(start: 14, end: 10),
                 tablet: AnimatedDescriptionText(start: 17, end: 14),
               ),
               const SizedBox(
                 height: defaultPadding * 2,
               ),
-              const DownloadButton(),
+              const DownloadButton(),          
+              const ConnectButton(),
+
             ],
           ),
         ),
         const Spacer(),
         if (Responsive.isDesktop(context)) const AnimatedImageContainer(),
-        const Spacer()
+        const Spacer(),
       ],
     );
   }

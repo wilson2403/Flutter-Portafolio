@@ -1,4 +1,6 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_portfolio/model/project_model_es.dart';
 import 'package:flutter_portfolio/view/projects/components/project_link.dart';
 
 import '../../../model/project_model.dart';
@@ -11,11 +13,12 @@ class ProjectDetail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size=MediaQuery.sizeOf(context);
+    bool isSpanish = context.locale.languageCode == 'es';
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Align(alignment: Alignment.topCenter,child: Text(
-          projectList[index].name,
+          isSpanish ?  projectList_spanish[index].name : projectList[index].name,          
           style: Theme.of(context)
               .textTheme
               .headlineSmall!
@@ -25,8 +28,9 @@ class ProjectDetail extends StatelessWidget {
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
         ),),
-        Responsive.isMobile(context) ?  const SizedBox(height: defaultPadding/2,) : const SizedBox(height: defaultPadding,),
-        Text(projectList[index].description,style: const TextStyle(color: Colors.grey,height: 1.5),maxLines: size.width>700 && size.width< 750 ? 3:  size.width<470  ? 2  : size.width>600 && size.width<700 ?     6:  size.width>900 && size.width <1060 ? 6: 4 ,overflow: TextOverflow.ellipsis,),
+        Responsive.isMobile(context) ?  const SizedBox(height: defaultPadding/2,) : const SizedBox(height: defaultPadding,),    
+        isSpanish ? Text(projectList_spanish[index].description,style: const TextStyle(color: Colors.grey,height: 1.5),maxLines: size.width>700 && size.width< 750 ? 3:  size.width<470  ? 2  : size.width>600 && size.width<700 ?     6:  size.width>900 && size.width <1060 ? 6: 4 ,overflow: TextOverflow.ellipsis,) :
+          Text(projectList[index].description,style: const TextStyle(color: Colors.grey,height: 1.5),maxLines: size.width>700 && size.width< 750 ? 3:  size.width<470  ? 2  : size.width>600 && size.width<700 ?     6:  size.width>900 && size.width <1060 ? 6: 4 ,overflow: TextOverflow.ellipsis,),
         const Spacer(),
         ProjectLinks(index: index,),
         const SizedBox(height: defaultPadding/2,),
