@@ -17,7 +17,7 @@ class AnimatedDescriptionText extends StatelessWidget {
         return SafeArea(
           child: Text(
             StringTranslateExtension('MyPersonalDescription').tr(),
-            textAlign: TextAlign.start,
+            textAlign: TextAlign.justify,
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(color: Colors.grey, wordSpacing: 2, fontSize: value),

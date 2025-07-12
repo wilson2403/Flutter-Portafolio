@@ -18,7 +18,7 @@ class NavigationButtonList extends StatelessWidget {
            if(!Responsive.isLargeMobile(context)) NavigationTextButton(onTap: () {}, text: 'About us'),
             NavigationTextButton(onTap: () {controller.animateToPage(1, duration: const Duration(milliseconds: 500), curve: Curves.easeIn);}, text: StringTranslateExtension('Projects').tr()),
             NavigationTextButton(onTap: () {controller.animateToPage(2, duration: const Duration(milliseconds: 500), curve: Curves.easeIn);}, text: StringTranslateExtension('Certifications').tr()),
-            NavigationTextButton(onTap: () {}, text: 'Achievements'),
+            NavigationTextButton(onTap: () {}, text: StringTranslateExtension('Achievements').tr()),
           ],
         ),
       );

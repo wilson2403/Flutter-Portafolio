@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/res/constants.dart';
 import 'drawer_image.dart';
@@ -11,14 +12,14 @@ class About extends StatelessWidget {
         color:  bgColor,
         child: Column(
           children: [
-            const Spacer(flex: 2,),
+            const Spacer(flex: 4,),
             const DrawerImage(),
             const Spacer(),
-            Text('Hamad Anwar',style: Theme.of(context).textTheme.titleSmall,),
+            Text('Wilson Alfaro',style: Theme.of(context).textTheme.titleSmall,),
             const SizedBox(height: defaultPadding/4,),
-            const Text('Flutter Developer & The Student of\nSoftware Engineering',
+            Text(StringTranslateExtension('FlutterDeveloper').tr(),
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: const TextStyle(
                   fontWeight: FontWeight.w200,
                   height: 1.5
               ),),
