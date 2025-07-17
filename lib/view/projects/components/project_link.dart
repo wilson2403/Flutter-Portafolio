@@ -10,11 +10,12 @@ class ProjectLinks extends StatelessWidget {
   const ProjectLinks({super.key, required this.index});
   @override
   Widget build(BuildContext context) {
+    String site = projectList[index].link.toLowerCase();
     return Row(
       children: [
         Row(
           children: [
-            Text(StringTranslateExtension('CheckGithub').tr(),style: TextStyle(color: Colors.white),overflow: TextOverflow.ellipsis),
+            Text(StringTranslateExtension((site.contains('github')) ? 'CheckGithub' : 'CheckDemo').tr(),style: const TextStyle(color: Colors.white),overflow: TextOverflow.ellipsis),
             IconButton(onPressed: () {launchUrl(Uri.parse(projectList[index].link));}, icon: SvgPicture.asset('assets/icons/github.svg')),
           ],
         ),

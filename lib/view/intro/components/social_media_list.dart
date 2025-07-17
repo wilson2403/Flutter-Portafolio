@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/view/intro/components/social_media_coloumn.dart';
 import '../../../res/constants.dart';
@@ -14,7 +15,7 @@ class SocialMediaIconList extends StatelessWidget {
           const Spacer(),
           RotatedBox(
             quarterTurns: -3,
-            child: Text('Follow Me',style: Theme.of(context).textTheme.titleSmall!.copyWith(
+            child: Text(StringTranslateExtension('FollowMe').tr(), style: Theme.of(context).textTheme.titleSmall!.copyWith(
               color: Colors.white,
               fontWeight: FontWeight.w500,
             ),),

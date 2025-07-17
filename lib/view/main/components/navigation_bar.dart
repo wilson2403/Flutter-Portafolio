@@ -1,10 +1,7 @@
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/view%20model/responsive.dart';
 import 'package:flutter_portfolio/view/intro/components/change_language.dart';
 import 'package:flutter_portfolio/view/intro/components/side_menu_button.dart';
-import 'package:flutter_portfolio/view/intro/components/connect_button.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../../../res/constants.dart';
 import 'navigation_button_list.dart';
 class TopNavigationBar extends StatelessWidget {

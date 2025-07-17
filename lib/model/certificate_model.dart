@@ -1,5 +1,6 @@
 class CertificateModel {
   final String name;
+  final String nombre;
   final String organization;
   final String date;
   final String skills;
@@ -7,6 +8,7 @@ class CertificateModel {
 
   CertificateModel({
     required this.name,
+    required this.nombre,
     required this.organization,
     required this.date,
     required this.skills,
@@ -16,21 +18,24 @@ class CertificateModel {
 
 List<CertificateModel> certificateList = [
   CertificateModel(
-    name: 'Getting started with Flutter Development',
-    organization: 'Coursera',
-    date: 'AUG 2023',
+    name: 'Flutter: Your Complete Guide to iOS and Android',
+    nombre: 'Flutter: Tu guía completa para iOS y Android',
+    organization: 'Udemy',
+    date: '07 2025',
     skills: 'Flutter . Dart',
-    credential:  'https://www.coursera.org/account/accomplishments/certificate/HQ4LFHSF4LKZ',
+    credential:  'http://ude.my/UC-dade71bc-22e0-4d4a-a270-341312f9644f',
   ),
   CertificateModel(
-    name: 'Flutter Essential Training: Build for Multiple Platforms',
-    organization: 'LinkedIn',
-    date: 'JUL 2023',
-    skills: 'Flutter . iOS Development . Android Development',
-    credential:  'https://www.linkedin.com/learning/certificates/450fc4e2f495726aea50a067caf586869ccf0cb92ebcc5a4c7b5648a95754a8f',
+    name: 'Android 12 Jetpack Compose Developer Course - from 0 to Hero',
+    nombre: 'Desarrollo en Android 12 Jetpack Compose - desde 0 hasta Hero',
+    organization: 'Udemy',
+    date: 'JUL 2022',
+    skills: 'Kotlin . Jetpack Compose . Android Development',
+    credential:  'https://drive.google.com/file/d/1FYDi-eq_jGNEMXF6ACTbtoK97Uqk6Zbf/view?usp=sharing',
   ),
   CertificateModel(
     name: 'Complete Dart Learning',
+    nombre: 'Flutter: Tu guía completa para iOS y Android',
     organization: 'Udemy',
     date: 'JUN 2023',
     skills: 'Flutter . Dart . Programming',
@@ -38,6 +43,7 @@ List<CertificateModel> certificateList = [
   ),
   CertificateModel(
     name: 'Flutter REST Movie App',
+    nombre: 'Flutter: Tu guía completa para iOS y Android',
     organization: 'Udemy',
     date: 'AUG 2023',
     skills: 'Flutter . Rest API\'s . Cloud',
@@ -45,6 +51,7 @@ List<CertificateModel> certificateList = [
   ),
   CertificateModel(
     name: 'Modularizing and Organizing Flutter Code',
+    nombre: 'Flutter: Tu guía completa para iOS y Android',
     organization: 'LinkedIn',
     date: 'JUL 2023',
     skills: 'Flutter . Clean Architecture',
@@ -52,6 +59,7 @@ List<CertificateModel> certificateList = [
   ),
   CertificateModel(
     name: 'Powering Your App with Live Web Data',
+    nombre: 'Flutter: Tu guía completa para iOS y Android',
     organization: 'LinkedIn',
     date: 'JUL 2023',
     skills: 'Flutter . Dart . Firebase . API\'s',
@@ -59,6 +67,7 @@ List<CertificateModel> certificateList = [
   ),
   CertificateModel(
     name: 'Firebase Cloud Firestore',
+    nombre: 'Flutter: Tu guía completa para iOS y Android',
     organization: 'LinkedIn',
     date: 'JUL 2023',
     skills: 'Flutter . Dart . Firebase . FireStore',
@@ -66,6 +75,7 @@ List<CertificateModel> certificateList = [
   ),
   CertificateModel(
     name: 'Android App Security',
+    nombre: 'Flutter: Tu guía completa para iOS y Android',
     organization: 'LinkedIn',
     date: 'JUL 2023',
     skills: 'Pentesting . Android App',
@@ -73,6 +83,7 @@ List<CertificateModel> certificateList = [
   ),
   CertificateModel(
     name: 'Foundations of Cybersecurity',
+    nombre: 'Flutter: Tu guía completa para iOS y Android',
     organization: 'Grow with Google on Coursera',
     date: 'JUL 2023',
     skills: 'Ethical Hacking . Linux . Cyber Security ',
@@ -80,6 +91,7 @@ List<CertificateModel> certificateList = [
   ),
   CertificateModel(
     name: 'HTML, CSS, and Javascript for Web Developers',
+    nombre: 'Flutter: Tu guía completa para iOS y Android',
     organization: 'JUL Coursera',
     date: 'JUL 2023',
     skills: 'HTML . CSS . JS . Web Development',
@@ -87,6 +99,7 @@ List<CertificateModel> certificateList = [
   ),
   CertificateModel(
     name: 'Network Defense Essentials (NDE)',
+    nombre: 'Flutter: Tu guía completa para iOS y Android',
     organization: 'EC-Council',
     date: 'JUL 2023',
     skills: 'Cyber Security . Networking ',

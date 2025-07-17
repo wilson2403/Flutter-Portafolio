@@ -1,8 +1,10 @@
 {
   "Latest": "Últimos",
   "Projects": "Proyectos",
+  "AboutUs": "Acerca de nosotros",
   "CheckGithub": "Ver en Github",
-  "ReadMore>>": "Leer más >>",
+  "ReadMore": "Leer más >>",
+  "CheckDemo": "Ver Demo",
   "MyPersonalPortfolio": "Mi Portafolio Personal",
   "MyPersonalDescription": "Soy capaz de crear excelentes aplicaciones móviles,\ngestionando cada etapa desde la idea hasta su lanzamiento.",
   "DownloadCV": "Descargar CV",
@@ -13,5 +15,7 @@
   "Contact":"Contacto",
   "Email":"Correo",
   "Skills":"Habilidades",
-  "FlutterDeveloper":"Desarrollador de Flutter \n Ingeniero de Software"
+  "FlutterDeveloper":"Desarrollador de Flutter \n Ingeniero de Software",
+  "FollowMe": "Sigueme",
+  "Credentials": "Certificado"
 }

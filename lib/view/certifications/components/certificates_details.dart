@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -12,6 +13,7 @@ class CertificateStack extends StatelessWidget {
   final int index;
   @override
   Widget build(BuildContext context) {
+    bool isSpanish = context.locale.languageCode == 'es';
     return InkWell(
       onHover: (value) {
         controller.onHover(index, value);
@@ -32,7 +34,7 @@ class CertificateStack extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  certificateList[index].name,
+                  isSpanish ?  certificateList[index].nombre : certificateList[index].name ,
                   style: Theme.of(context)
                       .textTheme
                       .titleSmall!
@@ -54,7 +56,7 @@ class CertificateStack extends StatelessWidget {
                 Text.rich(
                   maxLines: 1,
                   TextSpan(
-                      text: 'Skills : ',style: const TextStyle(color: Colors.white,),
+                      text: '${StringTranslateExtension('Skills').tr()} : ',style: const TextStyle(color: Colors.white,),
                       children: [
                         TextSpan(
                           text: certificateList[index].skills,style: const TextStyle(color: Colors.grey,overflow: TextOverflow.ellipsis),)
@@ -81,12 +83,12 @@ class CertificateStack extends StatelessWidget {
                           BoxShadow(color: Colors.red,offset: Offset(0, 1),blurRadius: 5),
                         ]
                     ),
-                    child: const Row(
+                    child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text('Credentials',style: TextStyle(color: Colors.white,fontSize: 10),),
-                        SizedBox(width: 5,),
-                        Icon(
+                        Text(StringTranslateExtension('Credentials').tr(),style: const TextStyle(color: Colors.white,fontSize: 10),),
+                        const SizedBox(width: 5,),
+                        const Icon(
                           CupertinoIcons.arrow_turn_up_right,color: Colors.white,size: 10,
                         )
                       ],
