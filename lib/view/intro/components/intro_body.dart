@@ -59,7 +59,7 @@ class IntroBody extends StatelessWidget {
                 tablet: AnimatedDescriptionText(start: 17, end: 14),
               ),
               const SizedBox(
-                height: defaultPadding * 2,
+                height: defaultPadding * 1,
               ),
               const DownloadButton(),          
               const ConnectButton(),

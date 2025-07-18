@@ -24,9 +24,11 @@ class MenuButton extends StatelessWidget {
                     color: Colors.black,
                     boxShadow: [
                       BoxShadow(
+                          // ignore: deprecated_member_use
                           color: Colors.pinkAccent.withOpacity(.5),
                           offset: const Offset(1, 1)),
                       BoxShadow(
+                          // ignore: deprecated_member_use
                           color: Colors.blue.withOpacity(.5),
                           offset: const Offset(-1, -1)),
                     ]),

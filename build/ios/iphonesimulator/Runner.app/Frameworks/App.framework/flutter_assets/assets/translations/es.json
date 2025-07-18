@@ -4,7 +4,7 @@
   "AboutUs": "Acerca de nosotros",
   "CheckGithub": "Ver en Github",
   "ReadMore": "Leer más >>",
-  "CheckDemo": "Ver Demo",
+  "CheckDemo": "Ver",
   "MyPersonalPortfolio": "Mi Portafolio Personal",
   "MyPersonalDescription": "Soy capaz de crear excelentes aplicaciones móviles,\ngestionando cada etapa desde la idea hasta su lanzamiento.",
   "DownloadCV": "Descargar CV",
@@ -17,5 +17,6 @@
   "Skills":"Habilidades",
   "FlutterDeveloper":"Desarrollador de Flutter \n Ingeniero de Software",
   "FollowMe": "Sigueme",
-  "Credentials": "Certificado"
+  "Credentials": "Certificado",
+  "License": "Licensias"
 }

@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_portfolio/view/certifications/components/image_viewer_drive.dart';
 import 'package:get/get.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../../../model/certificate_model.dart';
@@ -19,6 +20,7 @@ class CertificateStack extends StatelessWidget {
         controller.onHover(index, value);
       },
       onTap: () {
+        ShowImage(context, certificateList[index].credential, certificateList[index].download);
       },
       borderRadius: BorderRadius.circular(30),
       child: AnimatedContainer(
@@ -65,7 +67,7 @@ class CertificateStack extends StatelessWidget {
                 const SizedBox(height: defaultPadding,),
                 InkWell(
                   onTap: () {
-                    launchUrl(Uri.parse(certificateList[index].credential));
+                    ShowImage(context, certificateList[index].credential, certificateList[index].download);
                   },
                   child: Container(
                     height: 40,
@@ -87,10 +89,6 @@ class CertificateStack extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(StringTranslateExtension('Credentials').tr(),style: const TextStyle(color: Colors.white,fontSize: 10),),
-                        const SizedBox(width: 5,),
-                        const Icon(
-                          CupertinoIcons.arrow_turn_up_right,color: Colors.white,size: 10,
-                        )
                       ],
                     ),
                   ),
@@ -100,5 +98,27 @@ class CertificateStack extends StatelessWidget {
             ),
           )),
     );
+  }
+
+  // ignore: non_constant_identifier_names
+  void ShowImage(BuildContext context, String credential, String download) {
+    if (kIsWeb) {
+      ImageViewerSmall(context, download, 0.5);  
+    } else {
+      if (download.isNotEmpty) {
+        ImageViewerSmall(context, download, 0.8);     
+      } else {
+         launchurl(credential);
+      }
+    }
+  }
+
+  void launchurl(String credential) {
+    final uri = Uri.tryParse(credential);
+    if (uri != null) {
+      launchUrl(uri, mode: LaunchMode.externalApplication);
+    } else {
+      debugPrint('URL inválida: $credential');
+    }
   }
 }

@@ -12,7 +12,6 @@ class SplashView extends StatefulWidget {
 class _SplashViewState extends State<SplashView> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     Timer(const Duration(seconds: 1), () {
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const HomePage(),));

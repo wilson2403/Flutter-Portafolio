@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		mzWnp0o9ZJ4XdWOyQFdF803c3Cw=
+		NixwnTGT8aRAcFcc2YjmycfA2vQ=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		0MaLUTgRkIuzHDdyfAotMB7eEmQ=
+		otu18qoCWfGeTx/LasJIOqo/msY=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -27,6 +27,50 @@
 		<key>flutter_assets/NativeAssetsManifest.json</key>
 		<data>
 		re4p7E8rPLLsN+wzaPN/+AVpXTY=
+		</data>
+		<key>flutter_assets/assets/certifications/Android%2012%20Jetpack%20Compose.png</key>
+		<data>
+		sIpjFWm/kKS9rKnKddro/43acH0=
+		</data>
+		<key>flutter_assets/assets/certifications/Android%20Jetpack.jpg</key>
+		<data>
+		IJq2Lqw3TRlrlE1ZznDPvi6NQrk=
+		</data>
+		<key>flutter_assets/assets/certifications/Bots%20Whatsapp.jpg</key>
+		<data>
+		tdidTaUDrkpu8anpZ6jKJSu5Aa0=
+		</data>
+		<key>flutter_assets/assets/certifications/Dependency%20injections.jpg</key>
+		<data>
+		Mbj5zLKrZK6lSqftmB5txLbesG4=
+		</data>
+		<key>flutter_assets/assets/certifications/Kotlin.jpg</key>
+		<data>
+		tTC2UNN5X8QmLtYzs0xga95+QaM=
+		</data>
+		<key>flutter_assets/assets/certifications/Liderazgo.png</key>
+		<data>
+		rGSdAdcf540nkMR/W+N0KEwElq8=
+		</data>
+		<key>flutter_assets/assets/certifications/MVC%20Asp%20.CORE.jpg</key>
+		<data>
+		rz7fsiqfv1t4w8ESof4+H8gw+DM=
+		</data>
+		<key>flutter_assets/assets/certifications/Senior%20Android%20Jetpack%20Suite.jpg</key>
+		<data>
+		IJq2Lqw3TRlrlE1ZznDPvi6NQrk=
+		</data>
+		<key>flutter_assets/assets/certifications/Titulo%20cenfotec%20xamarin.jpg</key>
+		<data>
+		SJTGiBGN7gTgfwhCRA2rqNWNCJg=
+		</data>
+		<key>flutter_assets/assets/certifications/Titulo%20de%20Ingeneria.jpg</key>
+		<data>
+		9+KHCSbr+wRIa4V8NLTzc4T8Vaw=
+		</data>
+		<key>flutter_assets/assets/certifications/flutter.jpg</key>
+		<data>
+		JjL+AnJdwKO/7l4V//9KW35ZfMk=
 		</data>
 		<key>flutter_assets/assets/icons/behance.svg</key>
 		<data>
@@ -120,17 +164,21 @@
 		<data>
 		3nFvsjaWm8AcV3Pi6TLYYmeKsBs=
 		</data>
+		<key>flutter_assets/assets/projects/Ins%2024_7.png</key>
+		<data>
+		A6Xhu5nK9wKW5M+lLZkd+lFD2sA=
+		</data>
 		<key>flutter_assets/assets/translations/.DS_Store</key>
 		<data>
 		hH9tnEaZrf2zD005IU6wOBn2UZc=
 		</data>
 		<key>flutter_assets/assets/translations/en.json</key>
 		<data>
-		CElTRqxgZ00y+VRdgwTT1VuCBOQ=
+		mF7E+CbOMpuF7jS9OwSUy50Y8+c=
 		</data>
 		<key>flutter_assets/assets/translations/es.json</key>
 		<data>
-		Me2wqCTDaUtixSxVZ2EB0Uex/Nk=
+		b/xiXFh34NW7sgKN2OHgR8qOlCE=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -142,7 +190,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		00NRFieKu+zAr6u60kEJRzzj8c8=
+		tlWrylT5W6vFDU+c6oD9AU31sr4=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -175,14 +223,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XoRhGOTrTpEjLeevsvuXatB1loRd2rVKw5Y6mtDd0Dg=
+			pn9e7nL2u5UWDO3fxqFeVkXBM8u5WQObgY2eBx3HHmI=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r/rMIQn6jKEo+UBZ5dd33408Z9JSw66FYycIoE3xevM=
+			Btc5mjdDUJiUE+9pLMuscLy1KKME2/vfgRquPJWaNUQ=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -204,6 +252,83 @@
 			<key>hash2</key>
 			<data>
 			lUijHkoEgTXB2U+Rkyi/tirix7s8q5ZVfHlB2ql3dss=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/certifications/Android%2012%20Jetpack%20Compose.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2ilFqTrSt/40rqgLhKO59sWpi7YJwc1f9JPRsciff7U=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/certifications/Android%20Jetpack.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oZN/XsUAMs5VnkO1ISLWKvDRmWfo9EdoLS2QpBxetDM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/certifications/Bots%20Whatsapp.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oQ8zx2IKMKJQlSEIQVjRaa7kjd15q+fRUaJR511QNYk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/certifications/Dependency%20injections.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+4KXGQZOLs6osxYj4YeRbIi4oEzPajlaLwRf66x6jMc=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/certifications/Kotlin.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LHgJd84Ir1HQbnHh2RHkaO6hv5fCi4Vx1Djff1RON44=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/certifications/Liderazgo.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZJCXIOYD4N32ZVkFio5+OeAtL0fjwEFYG/dXq4GR/Jw=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/certifications/MVC%20Asp%20.CORE.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qfj38MSmblnfGmKIImVcWdj57Ssdyr3Os1HLWgQgkzE=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/certifications/Senior%20Android%20Jetpack%20Suite.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oZN/XsUAMs5VnkO1ISLWKvDRmWfo9EdoLS2QpBxetDM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/certifications/Titulo%20cenfotec%20xamarin.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zqskIf5Iitlq2hPea9POZy6EK0s8HAx1FNklFXT/PDI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/certifications/Titulo%20de%20Ingeneria.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hyP2HdBryDl+lUvfkfYzGDf+V9TvsKWExWyFl/7IkHM=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/certifications/flutter.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7DQOe4vJVo8fjvwVtQH4T1nZNZval2aR2UB3rdM5BBE=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/icons/behance.svg</key>
@@ -367,18 +492,25 @@
 			We5ub/7s+buZpnYeR0jkCOJ7JNwLBwvNCmq6yT4nnZc=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/projects/Ins%2024_7.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3XfiJB9DUla+mIm2wnO/D4L5UinwcyXSplcikkHjAHk=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/translations/en.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4BBqj5zJVatIIksvsjaCSIVPgIfCJQqr6FbeeToNeEc=
+			XZoaURBIxiPXP3mh4gK2HKhrdnGmgf4JgBXwzthQb8Q=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/translations/es.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rryvq5WBIy/Dql65amWgoyGFdXOM7LrbWQVjlaiDen0=
+			/cvnkr4XYK1KXkXWW+HhrtsFAV1nEp6kZbS5HojqmG8=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -399,7 +531,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bzeQcJAkbzl47JO5ZS1kPxTpwwR4QRKswHl8E5CYY/g=
+			Jf4GZgrfH0LW4L7JWDQDnkejUA8JlWhC5ucY2RSxCII=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

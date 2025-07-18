@@ -17,14 +17,14 @@ class MainView extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              kIsWeb && !Responsive.isLargeMobile(context) ? const SizedBox(height:defaultPadding*2,) : const SizedBox(height:defaultPadding/2,),
+              kIsWeb && !Responsive.isLargeMobile(context) ? const SizedBox(height:defaultPadding*1,) : const SizedBox(height:defaultPadding/3,),
                const SizedBox(
-                  height: 80,
+                  height:80,
                   child: TopNavigationBar(),
               ),
               if(Responsive.isLargeMobile(context))  const Row(children: [Spacer(),NavigationButtonList(),Spacer()],),
               Expanded(
-                  flex: 9,
+                  flex: 7,
                   child: PageView(
                     scrollDirection: Axis.vertical,
                     physics: const NeverScrollableScrollPhysics(),

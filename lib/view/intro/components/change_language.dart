@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/res/constants.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+// ignore: camel_case_types
 class changeLenguage extends StatelessWidget {
   const changeLenguage({
     super.key,

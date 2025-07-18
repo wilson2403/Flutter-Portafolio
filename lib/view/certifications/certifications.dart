@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/view%20model/getx_controllers/certification_controller.dart';
 import 'package:flutter_portfolio/view/projects/components/title_text.dart';
@@ -6,6 +5,7 @@ import 'package:get/get.dart';
 import '../../res/constants.dart';
 import '../../view model/responsive.dart';
 import 'components/certification_grid.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 class Certifications extends StatelessWidget {
   final controller=Get.put(CertificationController());
@@ -19,7 +19,7 @@ class Certifications extends StatelessWidget {
           if(Responsive.isLargeMobile(context))const SizedBox(
             height: defaultPadding,
           ),
-          const TitleText(prefix: 'Certifications & ', title: 'License'),
+          TitleText(prefix: '${StringTranslateExtension('Certifications').tr()} & ', title: StringTranslateExtension('License').tr()),
           const SizedBox(
             height: defaultPadding,
           ),

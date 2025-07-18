@@ -5,6 +5,7 @@ class CertificateModel {
   final String date;
   final String skills;
   final String credential;
+  final String download;
 
   CertificateModel({
     required this.name,
@@ -13,6 +14,7 @@ class CertificateModel {
     required this.date,
     required this.skills,
     required this.credential,
+    required this.download,
   });
 }
 
@@ -24,94 +26,87 @@ List<CertificateModel> certificateList = [
     date: '07 2025',
     skills: 'Flutter . Dart',
     credential:  'http://ude.my/UC-dade71bc-22e0-4d4a-a270-341312f9644f',
+    download: "assets/certifications/flutter.jpg"
   ),
   CertificateModel(
     name: 'Android 12 Jetpack Compose Developer Course - from 0 to Hero',
     nombre: 'Desarrollo en Android 12 Jetpack Compose - desde 0 hasta Hero',
     organization: 'Udemy',
-    date: 'JUL 2022',
+    date: '07 2022',
     skills: 'Kotlin . Jetpack Compose . Android Development',
-    credential:  'https://drive.google.com/file/d/1FYDi-eq_jGNEMXF6ACTbtoK97Uqk6Zbf/view?usp=sharing',
+    credential: "https://i.postimg.cc/c4jqyPjN/Android-12-Jetpack-Compose-Developer-Course-From-0-To-Hero.jpg",
+    download:  'assets/certifications/Android 12 Jetpack Compose.png'
   ),
   CertificateModel(
-    name: 'Complete Dart Learning',
-    nombre: 'Flutter: Tu guía completa para iOS y Android',
+    name: 'Modern Anxdroid app using Kotlin, MVVM, Dagger2, RxJava & more',
+    nombre: 'Aplicación moderna para Android que utiliza Kotlin, MVVM, Dagger2, RxJava y más.',
     organization: 'Udemy',
-    date: 'JUN 2023',
-    skills: 'Flutter . Dart . Programming',
-    credential:  'https://www.udemy.com/certificate/UC-5b01c756-0d20-4342-94e6-9d5860d1c95e/',
+    date: '08 2022',
+    skills: 'Kotlin, MVVM, Dependency injections',
+    credential:  'https://i.postimg.cc/T36PvyBx/Dependency-injections.jpg',
+    download: "assets/certifications/Dependency injections.jpg"
   ),
   CertificateModel(
-    name: 'Flutter REST Movie App',
-    nombre: 'Flutter: Tu guía completa para iOS y Android',
+    name: 'Kotlin course in Spanish for Android | From zero to professional',
+    nombre: 'Curso Kotlin en Español para Android | De Cero a Profesional',
     organization: 'Udemy',
-    date: 'AUG 2023',
-    skills: 'Flutter . Rest API\'s . Cloud',
-    credential:  'https://www.udemy.com/certificate/UC-22efc7ca-3df5-4f26-8025-4a1bd2672f19/',
+    date: '07 2022',
+    skills: 'Kotlin',
+    credential:  'https://i.postimg.cc/KYvbNt39/Kotlin.jpg',
+    download: "assets/certifications/Kotlin.jpg"
   ),
   CertificateModel(
-    name: 'Modularizing and Organizing Flutter Code',
-    nombre: 'Flutter: Tu guía completa para iOS y Android',
-    organization: 'LinkedIn',
-    date: 'JUL 2023',
-    skills: 'Flutter . Clean Architecture',
-    credential:  'https://www.linkedin.com/learning/certificates/686276fa42629d4f1291da79ea46bfde0222954b60297a2e728c770768f23407',
+    name: 'Liderando con Autoridad',
+    nombre: 'Leading with authority',
+    organization: 'CaesCR',
+    date: '12 2021',
+    skills: 'Leading Development',
+    credential:  'https://i.postimg.cc/ZnpbvZXp/WILSON-ALFARO-BADILLA-Liderazgo.png',
+    download: "assets/certifications/Liderazgo.png"
   ),
   CertificateModel(
-    name: 'Powering Your App with Live Web Data',
-    nombre: 'Flutter: Tu guía completa para iOS y Android',
-    organization: 'LinkedIn',
-    date: 'JUL 2023',
-    skills: 'Flutter . Dart . Firebase . API\'s',
-    credential:  'https://www.linkedin.com/learning/certificates/643f05463ae529f24bd9ea66a6ead9a20469bdb875a9ddda048c698eda3ee7c1',
+    name: 'WhatsApp bots from scratch with Dialogflow and App Premium',
+    nombre: 'Creación de bots para WhatsApp desde cero con Dialogflow y App Premium',
+    organization: 'Udemy',
+    date: '01 2021',
+    skills: 'Dialogflow & Whatsapp',
+    credential:  'https://i.postimg.cc/CLFcd736/Bots-Whatsapp.jpg',
+    download: "assets/certifications/Bots Whatsapp.jpg"
+  ),
+    CertificateModel(
+    name: 'ASP.NET Core 3.1 MVC C# SQL Server sales system course',
+    nombre: 'Curso sistema de venta en ASP.NET Core 3.1 MVC C# SQL Server',
+    organization: 'Udemy',
+    date: '09 2020',
+    skills: 'ASP.NET Core 3.1 MVC C# SQL Server',
+    credential:  'https://i.postimg.cc/43sBr5Jg/MVC-Asp-CORE.jpg',
+    download: "assets/certifications/MVC Asp .CORE.jpg"
   ),
   CertificateModel(
-    name: 'Firebase Cloud Firestore',
-    nombre: 'Flutter: Tu guía completa para iOS y Android',
-    organization: 'LinkedIn',
-    date: 'JUL 2023',
-    skills: 'Flutter . Dart . Firebase . FireStore',
-    credential:  'https://www.linkedin.com/learning/certificates/8f8be25531d2bcdbab1972482150277f9a239a13ba4d314c0574638bf28d07d2',
+    name: 'Complete Android Jetpack Masterclass',
+    nombre: 'Curso completo sobre Android Jetpack',
+    organization: 'Udemy',
+    date: '07 2020',
+    skills: 'Kotlin',
+    credential:  'https://i.postimg.cc/kgw3BDYW/Senior-Android-Developer-by-learning-the-Jetpack-Suite-using-ROOM-Palette-MVVM-Retrofit-Navigati.jpg',
+    download: "assets/certifications/Senior Android Jetpack Suite.jpg"
   ),
   CertificateModel(
-    name: 'Android App Security',
-    nombre: 'Flutter: Tu guía completa para iOS y Android',
-    organization: 'LinkedIn',
-    date: 'JUL 2023',
-    skills: 'Pentesting . Android App',
-    credential:  'https://www.linkedin.com/learning/certificates/1c6581b35d06edfbd6275d09e84b068e813880bf7d217b703716962d7aca3518',
+    name: 'Mobile Application Development for iOS/Android with C#.net and Xamarin',
+    nombre: 'Desarrollo de Aplicaciones Móviles para IOS / Android con C#.net y Xamarin',
+    organization: 'Cenfotec',
+    date: '02 2017',
+    skills: 'Xamarin',
+    credential:  'https://i.postimg.cc/3NPrfWQk/Titulo-cenfotec-xamarin.jpg8',
+    download: "assets/certifications/Titulo cenfotec xamarin.jpg"
   ),
   CertificateModel(
-    name: 'Foundations of Cybersecurity',
-    nombre: 'Flutter: Tu guía completa para iOS y Android',
-    organization: 'Grow with Google on Coursera',
-    date: 'JUL 2023',
-    skills: 'Ethical Hacking . Linux . Cyber Security ',
-    credential:  'https://coursera.org/share/67e5cb0dd7c478f1d7ec81079c3a40b8',
+    name: 'Bachelor Degree in Computer Systems Engineering',
+    nombre: 'Bachillerato en Ingenería de Sistema Informaticos',
+    organization: 'Universidad Latina de Costa Rica',
+    date: '04 2016',
+    skills: 'Systems Engineering',
+    credential:  'https://i.postimg.cc/xTDcPFft/Titulo-de-Ingeneria-en-Sistemas-Universidad-Latina.jpg',
+    download: "assets/certifications/Titulo de Ingeneria.jpg"
   ),
-  CertificateModel(
-    name: 'HTML, CSS, and Javascript for Web Developers',
-    nombre: 'Flutter: Tu guía completa para iOS y Android',
-    organization: 'JUL Coursera',
-    date: 'JUL 2023',
-    skills: 'HTML . CSS . JS . Web Development',
-    credential:  'https://coursera.org/share/67e5cb0dd7c478f1d7ec81079c3a40b8',
-  ),
-  CertificateModel(
-    name: 'Network Defense Essentials (NDE)',
-    nombre: 'Flutter: Tu guía completa para iOS y Android',
-    organization: 'EC-Council',
-    date: 'JUL 2023',
-    skills: 'Cyber Security . Networking ',
-    credential:  'https://codered.eccouncil.org/certificate/43a2d2a7-40ed-4230-9e65-a9aa0935e651?logged=false',
-  ),
-
-
-
-
-
-
-
-
-
 ];
