@@ -33,7 +33,7 @@ You can explore the live version of the website [Click to see live demo](https:/
 - **Elegant UI and Animations:** The user interface of the portfolio is thoughtfully designed to not only be functional but also visually appealing. Subtle animations are integrated throughout the website to create an engaging and delightful browsing experience. These animations are carefully balanced to enhance user engagement without overwhelming the content.
 
 ## Technologies and Packages Used
-
+   
 The portfolio website is built using Flutter, a powerful open-source UI software development toolkit. The following packages were utilized to enhance various aspects of the website:
 
 - [google_fonts](https://pub.dev/packages/google_fonts): Incorporates visually appealing and readable fonts from the Google Fonts library into the website.
@@ -64,21 +64,3 @@ Once the website is up and running, you'll find a range of sections to explore:
 - **Contact:** Reach out to me through provided contact details or social media links.
 
 
-## Contributions
-
-I welcome contributions and suggestions from the community! If you come across any issues, have ideas for improvements, or wish to contribute in any way, feel free to open an issue or submit a pull request. Let's collaborate to make this portfolio even better!
-
-## Contact Me
-
-Your feedback and thoughts are highly valued. Feel free to connect with me through:
-
-- **Email:** rh676838@gmail.com
-- **LinkedIn:** [Hamad Anwar](https://www.linkedin.com/in/hamad-anwar)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-### Designed and developed with ❤️ by [Hamad Anwar](https://www.linkedin.com/in/hamad-anwar/).
