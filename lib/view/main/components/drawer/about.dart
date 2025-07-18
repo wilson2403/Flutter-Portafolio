@@ -12,18 +12,18 @@ class About extends StatelessWidget {
         color:  bgColor,
         child: Column(
           children: [
-            const Spacer(flex: 1,),
+            const Spacer(flex: 4,),
             const DrawerImage(),
-            // const Spacer(),
+            const Spacer(),
             Text('Wilson Alfaro',style: Theme.of(context).textTheme.titleSmall,),
-            // const SizedBox(height: defaultPadding/4,),
+            const SizedBox(height: defaultPadding/4,),
             Text(StringTranslateExtension('FlutterDeveloper').tr(),
               textAlign: TextAlign.center,
               style: const TextStyle(
                   fontWeight: FontWeight.w200,
                   height: 1.5
               ),),
-            // const Spacer(flex: 2,),
+            const Spacer(flex: 2,),
           ],
         ),
       ),

@@ -32,7 +32,7 @@ class IntroBody extends StatelessWidget {
                     ),
                     const AnimatedImageContainer(
                       width: 150,
-                      height: 200,
+                      height: 150,
                     ),
                   ],
                 ),
