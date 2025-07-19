@@ -20,6 +20,15 @@ class CertificateModel {
 
 List<CertificateModel> certificateList = [
   CertificateModel(
+    name: 'Ionic 6: Creating IOS, Android apps with Angular - 2019',
+    nombre: 'Ionic 6: Crear aplicaciones IOS, Android con Angular - 2019',
+    organization: 'Udemy',
+    date: '07 2025',
+    skills: 'Google Play Store, Apple App Store, Push Notifications',
+    credential:  'https://www.udemy.com/certificate/UC-a15fc1d9-fa1f-4f14-a554-b1eade52d714/',
+    download: "assets/certifications/Ionic.jpg"
+  ),
+  CertificateModel(
     name: 'Flutter: Your Complete Guide to iOS and Android',
     nombre: 'Flutter: Tu guía completa para iOS y Android',
     organization: 'Udemy',
