@@ -21,7 +21,7 @@ class ConnectButton extends StatelessWidget {
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(defaultPadding),
               gradient: LinearGradient(colors: [
-                Colors.pink,
+                Colors.greenAccent,
                 Colors.blue.shade900,
               ]),
             boxShadow:const [

@@ -26,7 +26,7 @@ class DownloadButton extends StatelessWidget {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                Colors.pink,
+                Colors.greenAccent,
                 Colors.blue.shade900,
               ]),
         ),

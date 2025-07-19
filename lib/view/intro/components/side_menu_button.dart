@@ -25,7 +25,7 @@ class MenuButton extends StatelessWidget {
                     boxShadow: [
                       BoxShadow(
                           // ignore: deprecated_member_use
-                          color: Colors.pinkAccent.withOpacity(.5),
+                          color: Colors.greenAccent.withOpacity(.5),
                           offset: const Offset(1, 1)),
                       BoxShadow(
                           // ignore: deprecated_member_use
@@ -36,7 +36,7 @@ class MenuButton extends StatelessWidget {
                   child: ShaderMask(
                     shaderCallback: (bounds) {
                       return LinearGradient(
-                              colors: [Colors.pink, Colors.blue.shade900])
+                              colors: [Colors.greenAccent, Colors.blue.shade900])
                           .createShader(bounds);
                     },
                     child: Icon(

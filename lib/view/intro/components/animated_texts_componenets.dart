@@ -42,12 +42,12 @@ class AnimatedImageContainerState extends State<AnimatedImageContainer>
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(30),
               gradient: const LinearGradient(colors: [
-                Colors.pinkAccent,
+                Colors.greenAccent,
                 Colors.blue,
               ]),
               boxShadow: const [
                 BoxShadow(
-                  color: Colors.pink,
+                  color: Colors.greenAccent,
                   offset: Offset(-2, 0),
                   blurRadius: 20,
                 ),
