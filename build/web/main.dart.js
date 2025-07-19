@@ -69930,7 +69930,7 @@ VQ(a,b){A.aC0(B.o,!0,"Barrier",a,new A.a6F(b),B.bR,t.X)}}
 A.a6F.prototype={
 $3(a,b,c){var s=null,r=t.l,q=A.aT(a,s,r).w
 r=A.aT(a,s,r).w
-return A.k8(A.awL(A.dr(s,A.zc(B.o,A.dr(s,A.k8(A.axT(s,new A.nx(this.a,s,s)),s,s),B.B,B.k,s,s,s,s,s,s,s,s,s),s),B.B,s,s,s,s,q.a.b*0.8,s,s,s,s,r.a.a*0.8),s,s,s,"IMAGEVIEW",!1),s,s)},
+return A.k8(A.awL(A.dr(s,A.zc(B.o,A.dr(s,A.k8(A.axT(s,new A.nx(this.a,s,s)),s,s),B.B,B.k,s,s,s,s,s,s,s,s,s),s),B.B,s,s,s,s,q.a.b*0.5,s,s,s,s,r.a.a*0.5),s,s,s,"IMAGEVIEW",!1),s,s)},
 $C:"$3",
 $R:3,
 $S:152}
