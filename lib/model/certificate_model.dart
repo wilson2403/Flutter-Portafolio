@@ -29,6 +29,15 @@ List<CertificateModel> certificateList = [
     download: "assets/certifications/flutter.jpg"
   ),
   CertificateModel(
+    name: 'Appvance Letter of Recommendation',
+    nombre: 'Carta de Recomendación Appvance',
+    organization: 'Recommendation',
+    date: '10 2024',
+    skills: 'Appium, Selenium Testing',
+    credential:  'https://i.postimg.cc/Yq7MPg3g/Carta-Recomendacion-Wilson-Alfaro-Ingles-docx-1.png',
+    download: "assets/certifications/Carta Recomendacion.jpg"
+  ),
+  CertificateModel(
     name: 'Android 12 Jetpack Compose Developer Course - from 0 to Hero',
     nombre: 'Desarrollo en Android 12 Jetpack Compose - desde 0 hasta Hero',
     organization: 'Udemy',

@@ -64,19 +64,22 @@ class AnimatedImageContainerState extends State<AnimatedImageContainer>
                 color: Colors.black,
                 borderRadius: BorderRadius.circular(30),
               ),
-              child: Image.asset(
-                'assets/images/image.png',
-                height: Responsive.isLargeMobile(context)
-                    ? MediaQuery.sizeOf(context).width * 0.2
-                    : Responsive.isTablet(context)
-                        ? MediaQuery.sizeOf(context).width * 0.14
-                        : 200,
-                width: Responsive.isLargeMobile(context)
-                    ? MediaQuery.sizeOf(context).width * 0.2
-                    : Responsive.isTablet(context)
-                        ? MediaQuery.sizeOf(context).width * 0.14
-                        : 200,
-                fit: BoxFit.cover,
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(50),
+                child: Image.asset(
+                  'assets/images/profile.png',
+                  height: Responsive.isLargeMobile(context)
+                      ? MediaQuery.sizeOf(context).width * 0.2
+                      : Responsive.isTablet(context)
+                          ? MediaQuery.sizeOf(context).width * 0.14
+                          : 200,
+                  width: Responsive.isLargeMobile(context)
+                      ? MediaQuery.sizeOf(context).width * 0.2
+                      : Responsive.isTablet(context)
+                          ? MediaQuery.sizeOf(context).width * 0.14
+                          : 200,
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
           ),

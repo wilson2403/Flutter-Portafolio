@@ -67,7 +67,7 @@ class CertificateStack extends StatelessWidget {
                 const SizedBox(height: defaultPadding,),
                 InkWell(
                   onTap: () {
-                    ShowImage(context, certificateList[index].credential, certificateList[index].download);
+                    launchurl( certificateList[index].credential);
                   },
                   child: Container(
                     height: 40,
@@ -76,7 +76,7 @@ class CertificateStack extends StatelessWidget {
                         borderRadius: BorderRadius.circular(30),
                         gradient: LinearGradient(
                             colors: [
-                              Colors.pink,
+                              Colors.greenAccent,
                               Colors.blue.shade900,
                             ]
                         ),
