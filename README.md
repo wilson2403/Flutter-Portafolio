@@ -8,7 +8,7 @@ You can explore the live version of the website [Click to see live demo](https:/
 
 ## Screenshots
 
-<img src="showcase.png">
+<img width="1696" height="851" alt="Captura de pantalla 2025-07-19 a las 11 04 14 a  m" src="https://github.com/user-attachments/assets/0d6d99e3-5a82-4293-8a10-e4b493e4d83f" />
 
 ## Table of Contents
 
